@@ -43,16 +43,16 @@
 }
 
 #callouts {
-	background-image: image-url("callout_background.jpg");
+	background-image: image-url("callout_back234.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
-	// width: 100%;
-	// min-height: 400px;
+	width: 100%;
+	min-height: 675px;
 	display: table;
 	.callout_inner {
 		display: table-cell;
-		vertical-align: middle;
+		vertical-align: top;
 	}
 	.callout {
 		text-align: center;
@@ -65,7 +65,7 @@
 			margin-bottom: 0;
 		}
 		p {
-			color: rgba(255, 255, 255, 0.9);
+			color: rgba(255, 255, 255, 8.0);
 		}
 	}
 }
